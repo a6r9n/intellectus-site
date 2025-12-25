@@ -71,6 +71,12 @@ img{ max-width:100%; display:block; }
   letter-spacing:0.08em;
 }
 
+.brand-logo{
+  height: 34px;       
+  width: auto;       
+  display: block;
+}
+
 .brand-mark{
   width:14px; height:14px;
   border-radius: 4px;
