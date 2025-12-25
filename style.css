@@ -72,19 +72,12 @@ img{ max-width:100%; display:block; }
 }
 
 .brand-logo{
-  height: 34px;       
+  height: 60px;       
   width: auto;       
   display: block;
 }
 
-.brand-mark{
-  width:14px; height:14px;
-  border-radius: 4px;
-  background: var(--green);
-  box-shadow: 0 0 0 6px rgba(44,133,114,0.12);
-}
-
-.brand-text{ font-size:14px; }
+.brand-text{ font-size:18px; }
 
 .nav-links{
   display:flex;
@@ -126,11 +119,15 @@ img{ max-width:100%; display:block; }
 }
 
 .hero{
-  padding-top: 86px;
+  padding-top: 56px;
   background:
     radial-gradient(900px 300px at 20% 10%, rgba(44,133,114,0.12), transparent 55%),
     radial-gradient(700px 280px at 80% 20%, rgba(44,133,114,0.10), transparent 60%),
     linear-gradient(180deg, #ffffff, #ffffff);
+}
+
+.section.hero{
+  padding-bottom: 4px;
 }
 
 .hero-grid{
@@ -436,18 +433,26 @@ h1{
   border-radius: 999px;
   margin: 0 auto 12px;
   display:flex;
-  align-items:baseline;
+  align-items:center;
   justify-content:center;
   gap:6px;
-  border: 1px solid rgba(44,133,114,0.25);
+  border: 1px solid rgba(110, 180, 164, 0.25);
   background:
     radial-gradient(32px 32px at 35% 35%, rgba(44,133,114,0.16), transparent 65%),
     radial-gradient(28px 28px at 70% 65%, rgba(44,133,114,0.12), transparent 65%),
     linear-gradient(180deg, rgba(44,133,114,0.08), rgba(44,133,114,0.02));
 }
 
-.stat-circle span{ font-size: 34px; font-weight:800; color:#123029; letter-spacing:-0.02em; }
-.stat-circle small{ font-size: 16px; font-weight:800; color: var(--green-2); }
+.stat-circle span{
+  font-size: 36px;
+  font-weight:800;
+}
+
+.stat-circle small{
+  font-size: 13px;
+  font-weight:700;
+  opacity: 0.8;
+}
 
 .stat-title{
   font-weight:700;
